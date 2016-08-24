@@ -7,7 +7,7 @@ include ('menu.php');
 	<div class="row">
 		<div class="col-md-12">
 			<h3>
-			Obrigado por solicitar nosso contato [nome da pessoa]!
+			Obrigado por solicitar nosso contato NOMEPESSOA!
 			</h3>
 		</div>
 	</div>

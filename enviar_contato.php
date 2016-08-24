@@ -25,6 +25,8 @@ $envia = mail($para,"E-mail do Site",$texto_final,$headers);
 
 $agradecimento = file_get_contents("agradecimento.php");
 
+$agradecimento = str_replace("NOMEPESSOA", $_POST['nome'], $agradecimento);
+
 $envia = mail($_POST['email'],"Agradecimento do site",$agradecimento,$headers);
 
 header('location: agradecimento.php');
