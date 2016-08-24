@@ -23,18 +23,18 @@ include ('menu.php');
 		
 		<div class="col-md-6">
 		
-			<form>
+			<form action="enviar_contato.php" method="post">
 			  <div class="form-group">
 				<label for="exampleInputNome1">Nome Completo</label>
-				<input type="nome" class="form-control" id="exampleInputNome1" placeholder="Nome">
+				<input type="text" name="nome" required class="form-control" id="exampleInputNome1" placeholder="Nome">
 			  </div>
 			  <div class="form-group">
 				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				<input type="text" name="email" required class="form-control" id="exampleInputEmail1" placeholder="Email">
 			  </div>
 			  <div class="form-group">
 				<label for="exampleInputTelefone1">Telefone de Contato</label>
-				<input type="telefone" class="form-control" id="exampleInputtelefone1" placeholder="Telefone">
+				<input type="text" name="telefone" required class="form-control" id="exampleInputtelefone1" placeholder="Telefone">
 			  </div>
 			  <div class="form-group">
 				<label for="exampleInputFile">Anexe sua Dúvida</label>

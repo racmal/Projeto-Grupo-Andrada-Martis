@@ -2,7 +2,7 @@
 
 /* Enviar E-mail com resposta Automática*/
 
-// Recebendo os dados passados pela página "form_contato.php"
+// Recebendo os dados passados pela página "formulario.php"
 
 // Vamos definir agora o destinatário do email
 $para = "raphaelazevedocarvalho@gmail.com";
