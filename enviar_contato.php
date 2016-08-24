@@ -29,6 +29,6 @@ $agradecimento = str_replace("NOMEPESSOA", $_POST['nome'], $agradecimento);
 
 $envia = mail($_POST['email'],"Agradecimento do site",$agradecimento,$headers);
 
-header('location: agradecimento.php');
+header("location: agradecimento.php?nome={$_POST['nome']}");
 
 ?>
