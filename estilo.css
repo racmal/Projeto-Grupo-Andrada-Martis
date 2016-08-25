@@ -4,10 +4,26 @@
 	
 }
 .menu{
+		border:none;
 		background-color: #f7931e;
-
+		
 }
 .menu a{
 		color: #000 !important;
 }
+
+.menu a:hover{
+		border:none; 
+		background-color: #f9b215 !important;
+		
+}
+
+.botao_unidade{
+		border: none;	
+		background-color: #f9b215; 
+}  
+.botao_unidade:hover{
+		border: none;
+		background-color: #FFDA32
 	
+}

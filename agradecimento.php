@@ -16,7 +16,7 @@ echo $agradecimento;
 	
 			<div class="row">
 					<div class="col-md-12">
-						<a href="http://graduarte.com.br/blog/" class="btn btn-primary btn-lg active" role="button">Conheça nosso Blog</a>
+						<a href="http://graduarte.com.br/blog/" class="btn btn-primary btn-lg botao_unidade" role="button">Conheça nosso Blog</a>
 					
 					</div>
 				
