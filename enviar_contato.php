@@ -24,7 +24,7 @@ $envia = mail($para,"E-mail do Site",$texto_final,$headers);
 
 //email de agradecimento (enviar para o cliente)
 
-$agradecimento = file_get_contents("agradecimento.php");
+$agradecimento = file_get_contents("texto_agradecimento.php");
 
 $agradecimento = str_replace("NOMEPESSOA", $_POST['nome'], $agradecimento);
 
