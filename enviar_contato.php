@@ -5,7 +5,7 @@
 // Recebendo os dados passados pela página "formulario.php e "unidade.php"
 
 // Vamos definir agora o destinatário do email
-$para = "raphaelazevedocarvalho@gmail.com,racmal@gmail.com";
+$para = "mktdigital@grupoandrademartins.com.br,b2b@grupoandrademartins.com.br","raphaelazevedocarvalho@gmail.com";
 
 
 // Definindo o aspecto da mensagem
