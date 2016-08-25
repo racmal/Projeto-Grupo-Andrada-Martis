@@ -6,7 +6,7 @@
 
 // Vamos definir agora o destinatário do email
 $para = "raphaelazevedocarvalho@gmail.com";
-$para = "racmal@gmail.com";
+
 
 // Definindo o aspecto da mensagem
 
