@@ -2,10 +2,10 @@
 
 /* Enviar E-mail com resposta Automática*/
 
-// Recebendo os dados passados pela página "formulario.php"
+// Recebendo os dados passados pela página "formulario.php e "unidade.php"
 
 // Vamos definir agora o destinatário do email
-$para = "raphaelazevedocarvalho@gmail.com";
+$para = "raphaelazevedocarvalho@gmail.com"."racmal@gmail.com";
 
 // Definindo o aspecto da mensagem
 
@@ -29,6 +29,16 @@ $agradecimento = str_replace("NOMEPESSOA", $_POST['nome'], $agradecimento);
 
 $envia = mail($_POST['email'],"Agradecimento do site",$agradecimento,$headers);
 
+// Email solicitado
+
+$email = file_get_contents("email.php");
+
+$email = str_replace("NOMEPESSOA", $_POST['nome'], $email);
+
+$envia = mail($_POST['email'],"Agradecimento do site",$email,$headers);
+
+
 header("location: agradecimento.php?nome={$_POST['nome']}");
+
 
 ?>

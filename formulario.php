@@ -5,12 +5,13 @@ include ('menu.php');
 <div class="container">
 	<h2><b> Formulário </b></h2>
 	
-	Preencha o <b>formulário</b> abaixo com seus dados para solicitar nosso contato.
+	<span style="font-weight: 400;">Preencha o </span><b>formulário</b><span style="font-weight: 400;"> abaixo com seus dados para solicitar nosso contato.</span>
 
-Após o preenchimento, você receberá um e-mail de confirmação e em até 72
+<span style="font-weight: 400;">Após o preenchimento, você receberá um e-mail de confirmação e em até 72 horas o responsável por nossas parcerias entrará em contato com você.</span>
 
-horas o responsável por nossas parcerias entrará em contato com você.
-	
+&nbsp;
+
+<b>Dados Pessoais</b>
 	
 	
 	<div class="row">

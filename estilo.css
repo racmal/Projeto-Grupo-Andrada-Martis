@@ -1,6 +1,6 @@
 .topo {
 	 
-		text-align: center;
+		text-align: center !important;
 	
 }
 .menu{
@@ -9,7 +9,7 @@
 		
 }
 .menu a{
-		color: #000 !important;
+		color: #ffffff !important;
 }
 
 .menu a:hover{
