@@ -55,7 +55,6 @@ include ('menu.php');
 	
 </div>
 
-<script src="formulario.js" type="text/javascript"></script>
 
 <?php
 	include ('rodape.php');
