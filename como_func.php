@@ -21,7 +21,8 @@ include ('menu.php');
 &nbsp;
 <h2><em><strong>Nós acreditamos no seu desempenho!</strong></em></h2>
 <span style="font-weight: 400;">Entenda melhor sobre o retorno* do seu investimento:</span>
-<table>
+<table class="table table-bordered">
+  
 <tbody>
 <tr>
 <td><span style="font-weight: 400;">10 alunos/mês</span></td>
@@ -36,6 +37,7 @@ include ('menu.php');
 <td><span style="font-weight: 400;">R$ 10.000,00</span></td>
 </tr>
 </tbody>
+
 </table>
 <i><span style="font-weight: 400;">*Valores estimados com base no faturamento das unidades existentes</span></i>
 
